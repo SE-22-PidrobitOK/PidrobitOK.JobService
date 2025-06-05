@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PidrobitOK.JobService", "PidrobitOK.JobService\PidrobitOK.JobService.csproj", "{D6C81C9B-65DA-4C71-B77D-DB9D74FDC124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6C81C9B-65DA-4C71-B77D-DB9D74FDC124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C81C9B-65DA-4C71-B77D-DB9D74FDC124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C81C9B-65DA-4C71-B77D-DB9D74FDC124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C81C9B-65DA-4C71-B77D-DB9D74FDC124}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A9A9792-E0D8-4BAC-9FDB-3DE5204B21C8}
+	EndGlobalSection
+EndGlobal
