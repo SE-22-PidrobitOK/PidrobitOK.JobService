@@ -12,10 +12,10 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["PidrobitOK.JobService/PidrobitOK.JobService.csproj", "PidrobitOK.JobService/"]
-RUN dotnet restore "./PidrobitOK.JobService/PidrobitOK.JobService.csproj"
+COPY ["PidrobitOK.JobService.csproj", "."]
+RUN dotnet restore "./PidrobitOK.JobService.csproj"
 COPY . .
-WORKDIR "/src/PidrobitOK.JobService"
+WORKDIR "/src/."
 RUN dotnet build "./PidrobitOK.JobService.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
